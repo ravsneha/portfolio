@@ -3,12 +3,15 @@ my portfolio website
 The way I have this set up is:
 
 PROJECT FOLDER:
+
   dist: //when we run npm run sass and npm run babel, our es6 and sass files get compiled into here.
     script-comp.js
     main.css
     index.html
+    
   scss: //our sass code goes here
     main.scss
+    
   js: //our es6 javascript code goes here
     script.js
 
