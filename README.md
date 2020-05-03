@@ -23,4 +23,3 @@ HTML will just be in the index.html file. To compile our SCSS files we do "npm r
 compile our ES6 code we do "npm run babel" (the commands that are going to run are specified in our
 package.json file)
 
-//hope this works
