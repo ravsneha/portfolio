@@ -25,3 +25,9 @@ We will be writing our code in sass and ES6 javascript in the js folder and scss
 HTML will just be in the index.html file. To compile our SCSS files we do "npm run sass", to 
 compile our ES6 code we do "npm run babel" (the commands that are going to run are specified in our
 package.json file)
+
+
+DEPENDENCEIS:
+- node-sass
+- babel-cli
+- bootstrap
