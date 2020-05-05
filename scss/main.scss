@@ -1,0 +1,99 @@
+$fontstack: Poppins, sans-serif;
+$yellow: #FFDF4C;
+$logo-red: #ed1c24;
+$logo-navy: #1b1464;
+$blue: #4978FF;
+$dark-blue: #023BA7;
+$white: #fff;
+$grey: #F2F2F2;
+$red: #FF4447;
+$green: #0FC47A;
+$navy: #031D40;
+$light-navy: #24305E;
+
+*{
+  cursor:url(img/cursor.png),auto;
+}
+
+main {
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $fontstack;
+  color: black;
+}
+
+.red {
+  color:$logo-red;
+}
+
+.blue {
+  color: $blue;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.hero {
+  height: 100vh;
+  margin-left: 6rem;
+  margin-top: 15rem;
+
+  h1 {
+    font-size: 6rem;
+    font-weight:600;
+  }
+}
+
+.project-text {
+  h2 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .right {
+    text-align: right;
+  }
+  h4 {
+    font-size: 2rem;
+
+  }
+}
+
+
+// .design-gallery {
+//   img {
+//     width: 20%;
+//   }
+// }
+
+.featurette-divider {
+  visibility: hidden;
+  padding: 3rem;
+}
+
+.links {
+  img {
+    width: 6%;
+    padding-right: 1rem;
+  }
+}
+
+.about {
+  height: 100vh;
+  h2 {
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+  .pic_me img{
+    width: 60%;
+  }
+}

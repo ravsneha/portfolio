@@ -1,0 +1,56 @@
+* {
+  cursor: url(img/cursor.png), auto; }
+
+main {
+  margin-left: 3rem;
+  margin-right: 3rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins, sans-serif;
+  color: black; }
+
+.red {
+  color: #ed1c24; }
+
+.blue {
+  color: #4978FF; }
+
+.yellow {
+  color: #FFDF4C; }
+
+.hero {
+  height: 100vh;
+  margin-left: 6rem;
+  margin-top: 15rem; }
+  .hero h1 {
+    font-size: 6rem;
+    font-weight: 600; }
+
+.project-text h2 {
+  font-size: 3rem;
+  font-weight: bold; }
+
+.project-text .right {
+  text-align: right; }
+
+.project-text h4 {
+  font-size: 2rem; }
+
+.featurette-divider {
+  visibility: hidden;
+  padding: 3rem; }
+
+.links img {
+  width: 6%;
+  padding-right: 1rem; }
+
+.about {
+  height: 100vh; }
+  .about h2 {
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: bold; }
+  .about h3 {
+    font-weight: bold; }
+  .about .pic_me img {
+    width: 60%; }
