@@ -11,19 +11,18 @@ $green: #0FC47A;
 $navy: #031D40;
 $light-navy: #24305E;
 
-*{
-  cursor:url(img/cursor.png),auto;
-}
-
 main {
   margin-left: 3rem;
   margin-right: 3rem;
-
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: $fontstack;
   color: black;
+}
+
+p,li {
+  font-size: 1.1rem;
 }
 
 .red {
@@ -40,7 +39,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .hero {
   height: 100vh;
-  margin-left: 6rem;
   margin-top: 15rem;
 
   h1 {
@@ -58,17 +56,64 @@ h1,h2,h3,h4,h5,h6 {
     text-align: right;
   }
   h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  h5 {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
 
+
+  .contrib-tech {
+    display: flex;
+
+    .tech img {
+      width: 8%;
+      margin: .3rem 1rem 0 0;
+    }
+    #happy-icons img {
+      width: 6%;
+      margin: .3rem 1rem 0 0;
+    }
+    #sun-icons img {
+      width: 4%;
+      margin: .3rem 1rem 0 0;
+    }
+
+    #type-icons img {
+      width: 6%;
+      margin: .3rem 1rem 0 0;
+    }
+    .source-btn {
+      margin-top: 2rem;
+      border-radius: 1rem;
+      padding: .5rem .7rem;
+      color: $white;
+      font-family: $fontstack;
+      font-weight: bold;
+      font-size: 1rem;
+      img {
+        margin-left: .2rem;
+      }
+    }
+    .btn-yellow {
+      color: black;
+      background: $yellow;
+      border: $yellow;
+    }
+
+    .btn-blue {
+      color: $white;
+      background: $blue;
+      border: $blue;
+    }
   }
 }
 
-
-// .design-gallery {
-//   img {
-//     width: 20%;
-//   }
-// }
+.carousel {
+  margin: auto;
+}
 
 .featurette-divider {
   visibility: hidden;
@@ -76,24 +121,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .links {
+  margin: auto;
   img {
-    width: 6%;
+    width: 3%;
     padding-right: 1rem;
   }
 }
 
 .about {
-  height: 100vh;
-  h2 {
-    padding-top: 3rem;
-    font-size: 3rem;
-    font-weight: bold;
-  }
-
-  h3 {
-    font-weight: bold;
-  }
-  .pic_me img{
-    width: 60%;
-  }
-}
+  height: 100px;
+  background: $yellow;
+  display: flex;
+  justify-content: center;
