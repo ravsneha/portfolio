@@ -122,9 +122,11 @@ p,li {
 
 .links {
   margin: auto;
+
   img {
     width: 3%;
     padding-right: 1rem;
+    justify-content: center;
   }
 }
 
@@ -133,3 +135,5 @@ p,li {
   background: $yellow;
   display: flex;
   justify-content: center;
+  margin-top:3rem;
+}
