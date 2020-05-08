@@ -1,0 +1,148 @@
+$fontstack: Poppins, sans-serif;
+$yellow: #FFDF4C;
+$logo-red: #ed1c24;
+$logo-navy: #1b1464;
+$blue: #4978FF;
+$dark-blue: #023BA7;
+$white: #fff;
+$grey: #F2F2F2;
+$red: #FF4447;
+$green: #0FC47A;
+$navy: #031D40;
+$light-navy: #24305E;
+
+main {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $fontstack;
+  color: black;
+}
+
+p,li {
+  font-size: 1.1rem;
+}
+
+.red {
+  color:$logo-red;
+}
+
+.blue {
+  color: $blue;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.hero {
+  height: 80vh;
+  margin-top: 15rem;
+
+  h1 {
+    font-size: 6rem;
+    font-weight:600;
+  }
+}
+
+.project-text {
+  h2 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .right {
+    text-align: right;
+  }
+  h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  h5 {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+
+  .contrib-tech {
+    display: flex;
+
+    .tech img {
+      width: 8%;
+      margin: .3rem 1rem 0 0;
+    }
+    #happy-icons img {
+      width: 6%;
+      margin: .3rem 1rem 0 0;
+    }
+    #sun-icons img {
+      width: 4%;
+      margin: .3rem 1rem 0 0;
+    }
+
+    #type-icons img {
+      width: 6%;
+      margin: .3rem 1rem 0 0;
+    }
+    .source-btn {
+      margin-top: 2rem;
+      border-radius: 1rem;
+      padding: .5rem .7rem;
+      color: $white;
+      font-family: $fontstack;
+      font-weight: bold;
+      font-size: 1rem;
+      img {
+        margin-left: .2rem;
+      }
+    }
+    .btn-yellow {
+      color: black;
+      background: $yellow;
+      border: $yellow;
+    }
+
+    .btn-blue {
+      color: $white;
+      background: $blue;
+      border: $blue;
+    }
+  }
+}
+
+.carousel {
+  margin: auto;
+}
+
+.featurette-divider {
+  visibility: hidden;
+  padding: 3rem;
+}
+
+.links {
+  margin: auto;
+  margin-left: 45%;
+  img {
+    width: 3rem;
+    padding: 0 .5rem;
+  }
+}
+
+.footer {
+  height: 100px;
+  background: $yellow;
+  display: flex;
+  justify-content: center;
+  margin-top:3rem;
+
+  .footer-text {
+      margin: 2rem 0 0 2rem;
+      span {
+        font-size: 1.2rem;
+        a{
+          text-decoration: none;
+        }
+      }
+  }
+}
