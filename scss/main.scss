@@ -122,7 +122,8 @@ p,li {
 
 .links {
   margin: auto;
-  margin-left: 45%;
+  display: flex;
+  justify-content: flex-end;
   img {
     width: 3rem;
     padding: 0 .5rem;
